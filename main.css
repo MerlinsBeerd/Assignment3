@@ -1,5 +1,5 @@
 html {
-    color: #000000;
+    color: #110540;
     font-size: 20px;
     font-family: "arial", "sans-serif";
 }
@@ -9,26 +9,46 @@ body {
     background-size: cover;
     background-position: center;
     height: 80vh;
+    
+}
+
+.main-nav {
+    text-transform: uppercase;
 }
 
 a {
     padding: 0px 15px 0px 0px;
-    color: #000000;
+    color: #110540;
     font-family: "impact", "sans-serif";
     font-size: 30px;
+}
+
+
+}
+
+a:hover {
+    color:#000000;
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
 }
 
 p {
     font-weight: 600;
     width: 70%;
+    padding-left: 75px
 }
 
 li {
     font-weight: 600;
     width: 70%;
+    padding-left: 75px
 }
 
 q {
     font-weight: 200;
     width: 40%;
+}
+
+h1 {
+   padding-left: 75px 
 }
