@@ -1,5 +1,5 @@
 html {
-    color: #110540;
+    color: #0b0131;
     font-size: 20px;
     font-family: "arial", "sans-serif";
 }
@@ -9,46 +9,52 @@ body {
     background-size: cover;
     background-position: center;
     height: 80vh;
-    
-}
 
-.main-nav {
-    text-transform: uppercase;
 }
 
 a {
     padding: 0px 15px 0px 0px;
-    color: #110540;
+    color: #0b0131;
     font-family: "impact", "sans-serif";
     font-size: 30px;
 }
 
-
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #05008e;
 }
 
-a:hover {
-    color:#000000;
-    text-decoration: underline;
-    text-decoration-color: #ff0000;
+div {
+    padding-left: 110px;
 }
 
 p {
-    font-weight: 600;
+    font-weight: 800;
     width: 70%;
-    padding-left: 75px
+}
+
+.authorquote {
+    font-weight: bold;
+    font-family: "arial", "sans-sefif";
+    font-size: 15px;
+}
+
+.float {
+    float: left;
+}
+
+#clearleft {
+    clear: left;
+    padding-top: 20px;
+    width: 50%;
 }
 
 li {
     font-weight: 600;
     width: 70%;
-    padding-left: 75px
-}
-
-q {
-    font-weight: 200;
-    width: 40%;
 }
 
 h1 {
-   padding-left: 75px 
+    font-family: fantasy;
 }
